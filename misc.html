@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<title>Miscellaneous</title>
+<style>
+    a#hitch{
+    border-bottom: 1px dotted #000;    
+    }   
+    
+</style>
+ 
+    
+</head>
+
+<body>
+   <script>
+    
+function darkmode(){
+var element = document.body;
+
+
+
+
+    
+    element.classList.toggle("darkmode");
+  
+    
+      document.getElementById("darklinks").classList.toggle("dark-mode-url-links");
+    document.getElementById("darklinks").classList.toggle("dark-mode-url-visited");
+    document.getElementById("darklinks").classList.toggle("dark-mode-url-hover");
+  
+    
+    //if button is pressed cookies = 1 
+    //if button is pressed and cookies = 1 then cookies = 0
+    //if cookies = 1 then darkmode
+    
+   
+}
+    
+
+    
+    $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+<div class="jumbotron">
+     <h1><a href="index.html">James Thaemert's Portfolio</a></h1>
+   <div class="moon" onclick="darkmode()" ></div>
+    <div class="logo"></div>
+   </div>
+    <div class="container">
+ 
+    <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home Page</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link "  href="games.html">Javascript things</a>
+
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="classes.html">Classes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="misc.html" tabindex="-1" aria-disabled="true">Misc.</a>
+  </li>
+</ul>
+<br>       
+   <h4>Miscellaneous things I've made for varying classes.</h4> 
+
+    <hr class="new2"> 
+         <div class="row">
+        <div class="col-sm-8">
+          <video width="320" height="240" controls> 
+              <source src="Hitchcock%20reacts.mp4" type="video/mp4">
+            </video>
+            </div>
+            
+             <div class="col-sm-4">On this assignment we were told to edit what Hitchcock was reacting to.<div id="darklinks"><a href="https://www.youtube.com/watch?v=hCAE0t6KwJY"target="_blank">Here is the original video.</a></div> I decided something simple would be to record some short footage of the google results for "Hitcock Praise"
+                          
+             </div>
+        </div>
+        
+    <hr class ="new2">
+   
+ <div class="row">
+    <div class="col-sm-2">
+This is from our final in a photography class, and as our instructions for this were a very confusing and vague "Blue" I simply went around and took pictures of things that were blue.
+     </div>
+    <div class="col-sm-10">
+     <div class="berry"></div>
+       <hr class="new2">
+        <div class="record"></div>
+         
+     </div>
+    </div>
+        
+<!--
+    <hr class="new2"> 
+         <div class="row">
+        <div class="col-sm-8">
+          <video width="320" height="240" controls> 
+              <source src="darkwebfinalvid2.mp4" type="video/mp4">
+            </video>
+            </div>
+            
+             <div class="col-sm-4">This was one of the more difficult projects I had to do, I enjoyed doing it though. We basically were given a list of topics to choose from, and then had to make a video based on it. I chose the dark web as my topic.
+                          
+             </div>
+        </div>
+-->
+        
+        
+        
+         </div>
+</body>
+
+
+
+
+</html>

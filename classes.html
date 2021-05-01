@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<title>Classes</title>
+<!--
+    
+    
+    <style>
+        a#tooltip{
+            color:black;
+           border-bottom: 1px dotted #666;
+            
+        
+            
+
+    </style>
+    
+-->
+</head>
+
+<body>
+    
+ <script>
+    
+function darkmode(){
+var element = document.body;
+
+
+
+
+    
+    element.classList.toggle("darkmode");
+  
+    
+      document.getElementById("darklinks").classList.toggle("dark-mode-url-links");
+    document.getElementById("darklinks").classList.toggle("dark-mode-url-visited");
+    document.getElementById("darklinks").classList.toggle("dark-mode-url-hover");
+  document.getElementById("darklinks").classList.toggle("darklinke")
+    document.getElementById("smalls").classList.toggle("darksmall")
+    //if button is pressed cookies = 1 
+    //if button is pressed and cookies = 1 then cookies = 0
+    //if cookies = 1 then darkmode
+    
+   
+}
+    
+
+    
+    $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
+</script>
+    
+<div class="jumbotron">
+    <h1><a href="index.html">James Thaemert's Portfolio</a></h1>
+    
+   <div class="logo"></div>
+   <div class="moon" onclick="darkmode()"></div>
+  
+    </div>
+   
+    <div class="container">
+ 
+    <ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">Home Page</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link"  href="games.html">Javascript things</a>
+
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="classes.html">Classes</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="misc.html" tabindex="-1" aria-disabled="true">Misc.</a>
+  </li>
+</ul>
+<br>       
+   <h4> Classes I've taken <br> <small>Classes I've taken, and things I've learned. </small></h4> 
+
+      <hr class ="new2">
+     <div id="darklinks">
+        <table id="smalls" class="table">
+  <thead>
+    <tr>
+    
+    
+    </tr>
+  </thead>
+            
+  <tbody>
+
+    <tr>
+    <th scope="row">CMST</th>
+ 
+        <td><small>(CMST 103)</small><a id="tooltip" href="#" data-toggle="tooltip" title="Here I learned the basics of Javascript using a program called p5.js"> Computing Principles</a></td>
+        <td><small>(CMST 135)</small><a id="tooltip" href="#" data-toggle="tooltip" title="Here I learned the very basics of HTML"> Web Fundamentals</a></td>    
+        <td><small>(CMST 183)</small><a id="tooltip" href="#" data-toggle="tooltip" title="This class was largely learning how to use media to make videos, edit things and use photoshop"> Computer Systems Studio 1</a> </td>
+    <td><small>(CMST 185)</small><a id="tooltip" href="#" data-toggle="tooltip" title="This was a class where we learned things related to wires, cables, setting up LAN networks, etc"> Computer Systems Studio 2</a></td>
+    <td><small>(CMST 247)</small><a id="tooltip" href="#" data-toggle="tooltip" title="During this class we learned the basics of Javascript without the 'handholding' of p5.js."> Programming 1</a></td>
+    <td><small>(CMST 250)</small><a id="tooltip" href="#" data-toggle="tooltip" title="During this class we learned about the history of computers, why they are set up the way they are, WiFi, connections, binary, all sorts of things."> Hardware &amp; Networking Fundamentals</a> </td>
+       
+        
+   
+    </tr>
+    <tr>
+      <th scope="row">COMM</th>
+      <td> <small>(COMM 106)</small><a id="tooltip" href="#" data-toggle="tooltip" title="This one is pretty self explanatory. We learned how to speak to groups, how to properly create speeches, and how to get a point across to others."> Public Speaking 1</a></td>
+    
+    </tr>
+    <tr>
+      <th scope="row">PHILO</th>
+      <td> <small>(PHILO 105)</small><a id="tooltip" href="#" data-toggle="tooltip" title="In this class we learned how to discuss things, analyze arguments, and thing like 'is an argument valid'."> Intro to Critical Thinking</a></td>
+   
+    </tr>
+          <tr>
+      <th scope="row">BUS</th>
+      <td><small>(BUS 420)</small><a id="tooltip" href="#" data-toggle="tooltip" title="In this class we were taught about business and how one would properly manage one."> Management Perspectives</a></td>
+
+    </tr>
+          <tr>
+      <th scope="row">COT</th>
+      <td><small>(COT 105)</small> <a id="tooltip" href="#" data-toggle="tooltip" title="In this class we were taught about college life, and how to properly manage it">Mastering Academic Conversations</a></td>
+      
+    </tr>
+      
+  </tbody>
+</table>
+
+        
+  </div>  
+    </div>
+ 
+</body>
+
+
+
+
+</html>

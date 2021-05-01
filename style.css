@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+.berry {
+  padding: 50px;
+  background-image: url(photography/IMG_4744small.jpg);
+  transition: transform .2s;
+  width: 150px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.berry:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.record {
+  padding: 50px;
+  background-image: url(photography/20191204_155221small.jpg);
+  transition: transform .2s;
+  width: 411px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.record:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+a:link {
+  text-decoration: none;
+    
+}
+a:hover{
+    color:black ; 
+}
+
+a{color: black;}
+
+.achangi{color:white;}
+
+.info {
+position: relative;
+display: inline-block;
+border-bottom: 1px dotted black;}
+
+.logo {
+  padding: 60px;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+    position: absolute;
+    top: 15px;
+     right: -30px;
+  
+  
+}
+
+body{
+    background-color: whitesmoke;
+    background-image: url(white_background.JPG);
+    background-size: cover;
+background-repeat:repeat;
+}
+
+.jumbotron{
+background-color: darkgrey;
+    background-image: radial-gradient(darkgray,gray);
+   font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+    
+
+.darkmode{
+background-color:black;
+color:white;
+background-image: url(black_background.png);
+    background-size: cover;
+background-repeat: repeat;
+}
+
+.nav-tabs{
+background-color: lightgray;
+color: lightslategray;
+}
+
+
+hr.new2 {border-top: 1px dotted;}
+
+.moon{
+    background-image: url(moon.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 40px
+}
+.sun{
+   background-image: url(sun.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height:50px; 
+    
+}
+
+/*
+table.table-dark{
+    background:#888584
+}
+*/
+.box {
+  width: 300px;
+  border: 3px solid gray;
+  padding: 20px;
+  margin: 10px;
+}
+
+@media screen and (max-width:800px){
+    .box{display: none;}
+    .logo{height: 30px;
+        width: 30px;
+    
+    }
+    .moon{position: absolute;
+    top: 90px}
+}
+   .dark-mode-url-links a:links{
+      background-color: black;
+      color: white;
+        border-bottom: 1px dotted white;
+    }
+    .dark-mode-url-visited a:visited{
+      background-color: black;
+      color: white;
+         border-bottom: 1px dotted white;
+    }
+    .dark-mode-url-hover a:hover{
+      background-color:black;
+      color: white;
+         border-bottom: 1px dotted white;
+    }
+.darksmall{
+   
+    color: white;
+    border-bottom: 1px dotted black;
+}
